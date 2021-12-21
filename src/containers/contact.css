@@ -1,0 +1,211 @@
+div.main {
+    width: 820px;
+}
+.main_body {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 20px;
+    outline: none;
+    display: block;
+    background: url(../images/background.jpg) 0px 0px no-repeat;
+}
+.box_center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+    outline: none;
+    line-height: 150%;
+    display: block;
+    color: #BBBBBB;
+}
+.main_box{
+    width: 100%;
+    height: 580px;
+    position: relative;
+    
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    display: block;
+    outline: none;
+    line-height: 150%;
+    display: block;
+    color: #BBBBBB;
+    background-image: url(../images/content_overlay.png);
+
+}
+.box_menu_contact{
+    
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    height: auto;
+    list-style-type: none;
+    outline: none;
+    line-height: 150%;
+    color: #BBBBBB;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.box_menu_contact li {
+    top: 10px;
+    left: 10px;
+    opacity: 1;
+    width: 260px;
+    height: 180px;
+    display: none;
+    position: absolute;
+    background-position:0px -180px;
+    background-repeat: no-repeat;
+    outline: none;
+    line-height: 150%;
+    z-index: 1;
+}
+
+
+li {
+    display: list-item;
+
+}
+
+.box_menu_contact li span.title {
+    font-family: 'Fira Sans';
+    font-size: 23px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-left: 25px;
+    margin-top: 30px ;
+    display:inline-block
+
+}
+.box_menu_contact li span.subtitle {
+    display: block;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-family: 'Terminal Dosis','Arial';
+    color: #FFFFFF;
+}
+.box-menu-element-contact {
+    background-image: url(../images/content_box_09.png);
+}
+.list_menu{
+		left:10px;
+		top:200px;
+		margin:0px;
+		height:0px;
+		padding:0px;
+        overflow: hidden;
+		width:260px;
+        color: #BBBBBB;
+        font: 13px Arial;
+		position:absolute;
+		list-style-type:none;
+		background-position:0px 0px;
+		background-repeat:no-repeat;
+        background-image: url(../images/menu_box.png);
+		outline: none;
+        line-height: 150%;
+	}
+.list_menu li:first-child {
+    margin-top: 19px;
+}
+.list_menu li a
+	{
+		color:#858585;
+		display:block;
+		font-size:16px;
+		font-weight:500;
+		padding:8px 5px 8px 20px;
+		font-family:'Terminal Dosis','Arial';
+    }
+a {
+    text-decoration: none !important;
+}
+
+
+.list_menu li a span
+	{
+		float:left;
+		width:16px;
+		height:16px;
+		display:block;
+		margin-top:2px;
+	    margin-right:12px;
+		background-repeat:no-repeat;
+        background-position:0px 0px;
+	}
+.list_menu li a:hover{
+    color:#FFFFFF !important;
+}
+    .list_menu li span:hover{
+        background-position:0px -16px;
+}
+#list-menu-element-contact span{
+    opacity:1 !;
+	background-position:0px -16px;
+}
+#list-menu-element-contact {
+    color:#FFFFFF ;
+}
+
+
+#list-menu-element-about span {
+    background-image: url(../images/menu_icon_about.png);
+}
+#list-menu-element-services span {
+    background-image: url(../images/menu_icon_services.png);
+}
+#list-menu-element-process span {
+    background-image: url(../images/menu_icon_process.png);
+}
+#list-menu-element-images span {
+    background-image: url(../images/menu_icon_images.png);
+}
+#list-menu-element-videos span {
+    background-image: url(../images/menu_icon_videos.png);
+}
+#list-menu-element-clients span {
+    background-image: url(../images/menu_icon_clients.png);
+}
+#list-menu-element-testimonials span {
+    background-image: url(../images/menu_icon_testimonials.png);
+}
+#list-menu-element-pricing span {
+    background-image: url(../images/menu_icon_pricing.png);
+}
+#list-menu-element-contact span {
+    background-image: url(../images/menu_icon_contact.png);
+}
+.menu_window
+    {
+		top:10px;
+		right:-20px;
+		width:550px;
+		height:560px; 
+		display:none;
+		position:absolute;
+        outline: none;
+        line-height: 150%;
+}
+.menu_page_contact
+	{
+		width:515px;
+		padding-bottom:10px;
+        line-height: 150%;
+        display: block;
+	}
+.menu_page_contact h1{
+    color:#418ACD
+}
+.menu_page_contact h1{
+    font-size: 30px;
+    font-weight: 700px;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu';
+}
